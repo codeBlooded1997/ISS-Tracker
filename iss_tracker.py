@@ -3,9 +3,21 @@ import webbrowser
 import time
 import turtle
 
-# Opening a screen for turtle
+# Opening a screen for turtle.
 screen = turtle.Screen()
-# Keeps the screen open
+# Specifiying dimentions.
+screen.setup(720,360)
+# Defining cordinantes so we can pass in lat and long
+screen.setworldcoordinates(-180, -90, 180, 90)
+# Setting backgroung image
+screen.bgpic('Nasa_World_Map.gif')
+# Registering our ISS shape
+screen.register_shape('ISS.gif')
+# Creating turtle
+iss = turtle.Turtle()
+# Setting registered shape as cursor!
+iss.shape('ISS.gif')
+# Keeps the screen open.
 turtle.mainloop()
 
 """
