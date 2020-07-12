@@ -13,6 +13,7 @@ The code is fully commentet out so, feel free to use it for educatial purposes.
     - Using open-notify API to get real time data from NASA.
     - Using turtle package for visulizing real time data that I got from REST API.
     - Using external files in turtle package window.
+    - Using latitude and longitute and google maps api to visualize the geographical location for ISS.
 
 # For running the script:
     - Open the terminal and navigae to directory where the project folder exists.
